@@ -66,6 +66,7 @@
             this.btnIniciar.TabIndex = 2;
             this.btnIniciar.Text = "Iniciar";
             this.btnIniciar.UseVisualStyleBackColor = true;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
             // picFondo
             // 
@@ -88,7 +89,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Gestíon de Productos - Inicio";
+            this.Text = "Gestión de Productos - Inicio";
             this.pInicial.ResumeLayout(false);
             this.pInicial.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFondo)).EndInit();

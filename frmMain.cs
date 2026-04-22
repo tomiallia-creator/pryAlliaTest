@@ -16,5 +16,13 @@ namespace pryAlliaTest
         {
             InitializeComponent();
         }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            frmCargaProducto frmCargaProducto = new frmCargaProducto();
+            this.Hide();
+            frmCargaProducto.ShowDialog();
+            this.Close();
+        }
     }
 }
